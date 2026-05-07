@@ -10,8 +10,6 @@ venv/
 # Data (we re-download in the pipeline; no need to version)
 data/raw/*
 !data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
 
 # Models — keep small final ones, not training intermediates
 models/*.tmp
